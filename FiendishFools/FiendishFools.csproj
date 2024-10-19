@@ -1,0 +1,297 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\BloodiedSacarfice.png" />
+	  <None Remove="Resources\ColdPigmentedPassive.png" />
+	  <None Remove="Resources\Compression.png" />
+	  <None Remove="Resources\DaymonBack.png" />
+	  <None Remove="Resources\DaymonFront.png" />
+	  <None Remove="Resources\DaymonMenu.png" />
+	  <None Remove="Resources\DaymonOverWorld.png" />
+	  <None Remove="Resources\Decompression.png" />
+	  <None Remove="Resources\EmpoweredIcon.png" />
+	  <None Remove="Resources\FienderBack.png" />
+	  <None Remove="Resources\FienderFront.png" />
+	  <None Remove="Resources\FienderMenu.png" />
+	  <None Remove="Resources\FienderOverWorld.png" />
+	  <None Remove="Resources\FiendishFool.textures.Combust.png" />
+	  <None Remove="Resources\FiendishFool.textures.Compresse.Png" />
+	  <None Remove="Resources\FiendishFool.textures.DeathsTouchIcon.png" />
+	  <None Remove="Resources\FiendishFool.textures.FiendishFoolsIcon.png" />
+	  <None Remove="Resources\FiendishFool.textures.FireFuel.png" />
+	  <None Remove="Resources\FiendishFool.textures.ForgeTheWorld.png" />
+	  <None Remove="Resources\FiendishFool.textures.FuelOverFlow.png" />
+	  <None Remove="Resources\FiendishFool.textures.GodsBlessing.png" />
+	  <None Remove="Resources\FiendishFool.textures.Idiot.png" />
+	  <None Remove="Resources\FiendishFool.textures.Leak.png" />
+	  <None Remove="Resources\FiendishFool.textures.MechanicalInsides.png" />
+	  <None Remove="Resources\FiendishFool.textures.ModIcon.png" />
+	  <None Remove="Resources\FiendishFool.textures.Mold.png" />
+	  <None Remove="Resources\FiendishFool.textures.MultiAttackIcon.png" />
+	  <None Remove="Resources\FiendishFool.textures.NoSillyFace.png" />
+	  <None Remove="Resources\FiendishFool.textures.OilChange.png" />
+	  <None Remove="Resources\FiendishFool.textures.OverLoad.png" />
+	  <None Remove="Resources\FiendishFool.textures.PointBlankeShot.png" />
+	  <None Remove="Resources\FiendishFool.textures.SpiritualConnection.png" />
+	  <None Remove="Resources\fiendishresource" />
+	  <None Remove="Resources\GroveBack.png" />
+	  <None Remove="Resources\GroveFront.png" />
+	  <None Remove="Resources\GroveMenu.png" />
+	  <None Remove="Resources\GroveOverWorld.png" />
+	  <None Remove="Resources\Impoverishment.png" />
+	  <None Remove="Resources\InfernosBack.png" />
+	  <None Remove="Resources\InfernosFront.png" />
+	  <None Remove="Resources\InfernosMenu.png" />
+	  <None Remove="Resources\InfernosOverWorld.png" />
+	  <None Remove="Resources\MuglehBack.png" />
+	  <None Remove="Resources\MuglehFront.png" />
+	  <None Remove="Resources\MuglehMenu.png" />
+	  <None Remove="Resources\MuglehOverWorld.png" />
+	  <None Remove="Resources\PassivesIconDeathsList.png" />
+	  <None Remove="Resources\RemDeathsTouchIcon.png" />
+	  <None Remove="Resources\SamuelBack.png" />
+	  <None Remove="Resources\SamuelFront.png" />
+	  <None Remove="Resources\SamuelMenu.png" />
+	  <None Remove="Resources\SamuelOverWorld.png" />
+	  <None Remove="Resources\SkillBloodBind.png" />
+	  <None Remove="Resources\SkillBloodiedSacarfice.png" />
+	  <None Remove="Resources\SkillBloodiedStrength" />
+	  <None Remove="Resources\SkillBloodiedStrength.png" />
+	  <None Remove="Resources\SkillBoilOver.png" />
+	  <None Remove="Resources\SkillDepravedConversion.png" />
+	  <None Remove="Resources\SkillFingerShots.png" />
+	  <None Remove="Resources\SkillImitation.png" />
+	  <None Remove="Resources\SkillImpalement.png" />
+	  <None Remove="Resources\SkillInfluince.png" />
+	  <None Remove="Resources\SkillMasochism.png" />
+	  <None Remove="Resources\SkillMeanGesture.Png" />
+	  <None Remove="Resources\SkillPeirce.png" />
+	  <None Remove="Resources\SkillQuickDraw.png" />
+	  <None Remove="Resources\SkillReapersBargin.png" />
+	  <None Remove="Resources\SkillRicochete.png" />
+	  <None Remove="Resources\SkillShishkebab.png" />
+	  <None Remove="Resources\SkillShowThePain.png" />
+	  <None Remove="Resources\SkillSoulSuck.png" />
+	  <None Remove="Resources\SkillSoulSweep.png" />
+	  <None Remove="Resources\SkillStandOff.png" />
+	  <None Remove="Resources\SkillWhispers.png" />
+	  <None Remove="Resources\SkunkyMenu.png" />
+	  <None Remove="Resources\SkunkyWorld.png" />
+	  <None Remove="Resources\SNAP!.Png" />
+	  <None Remove="Resources\SpiritualEnergyIcon.png" />
+	  <None Remove="Resources\StalkedIcon.png" />
+	  <None Remove="Resources\StalkerBack.png" />
+	  <None Remove="Resources\StalkerFront.png" />
+	  <None Remove="Resources\StalkerIcon.png" />
+	  <None Remove="Resources\StalkerMenu.png" />
+	  <None Remove="Resources\StalkerOverWorld.png" />
+	  <None Remove="Resources\SteadyAimPassive.png" />
+	  <None Remove="Resources\Stitch.png" />
+	  <None Remove="Resources\TakeCover.png" />
+	  <None Remove="Resources\ThanatosBack.png" />
+	  <None Remove="Resources\ThanatosFront.png" />
+	  <None Remove="Resources\ThanatosMenu.png" />
+	  <None Remove="Resources\ThanatosOverWorld.png" />
+	  <None Remove="Resources\ThitharBack.png" />
+	  <None Remove="Resources\ThitharFront.png" />
+	  <None Remove="Resources\ThitharMenu.png" />
+	  <None Remove="Resources\ThitharOverWorld.png" />
+	  <None Remove="Resources\TrashCompactor.png" />
+	  <None Remove="Resources\WallumBack.png" />
+	  <None Remove="Resources\WallumFront.png" />
+	  <None Remove="Resources\WallumMenu.png" />
+	  <None Remove="Resources\WallumWorld.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\ColdPigmentedPassive.png" />
+	  <EmbeddedResource Include="Resources\Compression.png" />
+	  <EmbeddedResource Include="Resources\DaymonBack.png" />
+	  <EmbeddedResource Include="Resources\DaymonFront.png" />
+	  <EmbeddedResource Include="Resources\DaymonMenu.png" />
+	  <EmbeddedResource Include="Resources\DaymonOverWorld.png" />
+	  <EmbeddedResource Include="Resources\Decompression.png" />
+	  <EmbeddedResource Include="Resources\FienderBack.png" />
+	  <EmbeddedResource Include="Resources\FienderFront.png" />
+	  <EmbeddedResource Include="Resources\FienderMenu.png" />
+	  <EmbeddedResource Include="Resources\FienderOverWorld.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.Combust.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.Compresse.Png" />
+	  <EmbeddedResource Include="Resources\SkillImitation.png" />
+	  <EmbeddedResource Include="Resources\SkillInfluince.png" />
+	  <EmbeddedResource Include="Resources\SkillReapersBargin.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.DeathsTouchIcon.png" />
+	  <EmbeddedResource Include="Resources\EmpoweredIcon.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.FiendishFoolsIcon.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.FireFuel.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.ForgeTheWorld.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.FuelOverFlow.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.GodsBlessing.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.Idiot.png" />
+	  <EmbeddedResource Include="Resources\SkillBoilOver.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.Leak.png" />
+	  <EmbeddedResource Include="Resources\SkillSoulSuck.png" />
+	  <EmbeddedResource Include="Resources\SkillMeanGesture.Png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.MechanicalInsides.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.ModIcon.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.Mold.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.MultiAttackIcon.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.NoSillyFace.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.OilChange.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.OverLoad.png" />
+	  <EmbeddedResource Include="Resources\FiendishFool.textures.PointBlankeShot.png" />
+	  <EmbeddedResource Include="Resources\PassivesIconDeathsList.png" />
+	  <EmbeddedResource Include="Resources\SkillSoulSweep.png" />
+	  <EmbeddedResource Include="Resources\SkillFingerShots.png" />
+	  <EmbeddedResource Include="Resources\fiendishresource" />
+	  <EmbeddedResource Include="Resources\GroveBack.png" />
+	  <EmbeddedResource Include="Resources\GroveFront.png" />
+	  <EmbeddedResource Include="Resources\GroveMenu.png" />
+	  <EmbeddedResource Include="Resources\GroveOverWorld.png" />
+	  <EmbeddedResource Include="Resources\Impoverishment.png" />
+	  <EmbeddedResource Include="Resources\InfernosBack.png" />
+	  <EmbeddedResource Include="Resources\InfernosFront.png" />
+	  <EmbeddedResource Include="Resources\InfernosMenu.png" />
+	  <EmbeddedResource Include="Resources\InfernosOverWorld.png" />
+	  <EmbeddedResource Include="Resources\MuglehBack.png" />
+	  <EmbeddedResource Include="Resources\MuglehFront.png" />
+	  <EmbeddedResource Include="Resources\MuglehMenu.png" />
+	  <EmbeddedResource Include="Resources\MuglehOverWorld.png" />
+	  <EmbeddedResource Include="Resources\RemDeathsTouchIcon.png" />
+	  <EmbeddedResource Include="Resources\SamuelBack.png" />
+	  <EmbeddedResource Include="Resources\SamuelFront.png" />
+	  <EmbeddedResource Include="Resources\SamuelMenu.png" />
+	  <EmbeddedResource Include="Resources\SamuelOverWorld.png" />
+	  <EmbeddedResource Include="Resources\SkillBloodBind.png" />
+	  <EmbeddedResource Include="Resources\SkillBloodiedSacarfice.png" />
+	  <EmbeddedResource Include="Resources\SkillBloodiedStrength.png" />
+	  <EmbeddedResource Include="Resources\SkillDepravedConversion.png" />
+	  <EmbeddedResource Include="Resources\SkillImpalement.png" />
+	  <EmbeddedResource Include="Resources\SkillMasochism.png" />
+	  <EmbeddedResource Include="Resources\SkillPeirce.png" />
+	  <EmbeddedResource Include="Resources\SkillQuickDraw.png" />
+	  <EmbeddedResource Include="Resources\SkillRicochete.png" />
+	  <EmbeddedResource Include="Resources\SkillShishkebab.png" />
+	  <EmbeddedResource Include="Resources\SkillShowThePain.png" />
+	  <EmbeddedResource Include="Resources\SkillStandOff.png" />
+	  <EmbeddedResource Include="Resources\SkillWhispers.png" />
+	  <EmbeddedResource Include="Resources\SkunkyMenu.png" />
+	  <EmbeddedResource Include="Resources\SkunkyWorld.png" />
+	  <EmbeddedResource Include="Resources\SNAP!.Png" />
+	  <EmbeddedResource Include="Resources\SpiritualEnergyIcon.png" />
+	  <EmbeddedResource Include="Resources\StalkedIcon.png" />
+	  <EmbeddedResource Include="Resources\StalkerBack.png" />
+	  <EmbeddedResource Include="Resources\StalkerFront.png" />
+	  <EmbeddedResource Include="Resources\StalkerIcon.png" />
+	  <EmbeddedResource Include="Resources\StalkerMenu.png" />
+	  <EmbeddedResource Include="Resources\StalkerOverWorld.png" />
+	  <EmbeddedResource Include="Resources\SteadyAimPassive.png" />
+	  <EmbeddedResource Include="Resources\Stitch.png" />
+	  <EmbeddedResource Include="Resources\TakeCover.png" />
+	  <EmbeddedResource Include="Resources\ThanatosBack.png" />
+	  <EmbeddedResource Include="Resources\ThanatosFront.png" />
+	  <EmbeddedResource Include="Resources\ThanatosMenu.png" />
+	  <EmbeddedResource Include="Resources\ThanatosOverWorld.png" />
+	  <EmbeddedResource Include="Resources\ThitharBack.png" />
+	  <EmbeddedResource Include="Resources\ThitharFront.png" />
+	  <EmbeddedResource Include="Resources\ThitharMenu.png" />
+	  <EmbeddedResource Include="Resources\ThitharOverWorld.png" />
+	  <EmbeddedResource Include="Resources\TrashCompactor.png" />
+	  <EmbeddedResource Include="Resources\WallumBack.png" />
+	  <EmbeddedResource Include="Resources\WallumFront.png" />
+	  <EmbeddedResource Include="Resources\WallumMenu.png" />
+	  <EmbeddedResource Include="Resources\WallumWorld.png" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\Steam\steamapps\common\Brutal Orchestra\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\Steam\steamapps\common\Brutal Orchestra\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BrutalAPI">
+      <HintPath>..\..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\StreamingAssets\mods\BrutalAPI\plugins\BrutalAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\..\..\Steam\steamapps\common\Brutal Orchestra\BrutalOrchestra_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\Brutal orchestra modding stuff\Visual studio code refrence\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <XamlAppDef Include="Resources\BloodiedSacarfice.png" />
+  </ItemGroup>
+
+</Project>
